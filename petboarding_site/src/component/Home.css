@@ -1,12 +1,17 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/blue-background-picture-id157571423?k=20&m=157571423&s=612x612&w=0&h=GxSD_uRBNlBtsvXo54kGstPong-zzqKR545fF1Y5Mws=");
+    color: rgb(244, 246, 247);
+}
 .table{
     margin: auto;
-    border: 1px solid black;
-}
-.table tr{
-    border: none;
-    border-bottom: 1px solid black;
+    border: 1px solid rgb(216, 193, 64);
 }
 .table td{
-    margin-left: 50px;
     padding: 20px;
+    font-size: 20px;
+}
+.btnDelete{
+    background-color: rgb(38, 163, 212);
+    color: aliceblue;
+    border-radius: 5px;
 }

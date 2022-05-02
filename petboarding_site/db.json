@@ -29,6 +29,16 @@
       "verified": "Yes",
       "rating": "4.6",
       "id": 3
+    },
+    {
+      "name": "Govind Singh",
+      "city": "Bageshwar",
+      "address": "Village - Kwairali, Post Office - Gurna",
+      "capacity": "542000",
+      "cost_per_day": "2500",
+      "verified": "Yes",
+      "rating": "4.6",
+      "id": 4
     }
   ]
 }

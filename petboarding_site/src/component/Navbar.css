@@ -1,0 +1,12 @@
+.Navbar{
+    background-color: bisque;
+    width: 100%;
+    font-size: 25x;
+    height: 35px;
+}
+.navbarLink{
+    text-decoration: none;
+    color: rgb(27, 127, 214);
+    margin-right:50px ;
+    font-weight: 600;
+}
