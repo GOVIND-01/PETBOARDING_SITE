@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 import "./Home.css"
+import { ReadOnly } from "./ReadOnly";
 
 export const Home = () => {
     const [editable, setEditable] = useState(false);
@@ -15,14 +16,14 @@ export const Home = () => {
         })
         
     }
-    const DeleteFun = (id) => {
-        setdata((prev) => {
-            return prev.filter((data) => data.id != id);
-        })
-    }
-    const Edit = () => {
-        
-    }
+    // const DeleteFun = (id) => {
+    //     setdata((prev) => {
+    //         return prev.filter((data) => data.id != id);
+    //     })
+    // }
+    // const Edit = () => {
+    //     setEditable(true);
+    // }
     return (
         <div className="main">
             <h1>Home Page</h1>
@@ -44,22 +45,7 @@ export const Home = () => {
                 </thead>
                 <tbody>
                     {data.map((el) => (
-                        <tr>
-                            <td>{el.id}</td>
-                            <td>{ el.name}</td>
-                            <td>{ el.city}</td>
-                            <td>{ el.address}</td>
-                            <td>{ el.capacity}</td>
-                            <td>{ el.cost_per_day}</td>
-                            <td>{ el.verified}</td>
-                            <td>{ el.rating}</td>
-                            <td><button className="btnDelete" onClick={() => {
-                                DeleteFun(el.id)
-                            }}>Delete</button></td>
-                            <td><button className="btnDelete" onClick={() => {
-                                Edit();
-                            }}>Edit</button> </td>
-                        </tr>
+                        <ReadOnly el={el}/>
                     ))}
                     
                 </tbody>
