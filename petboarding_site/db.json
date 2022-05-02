@@ -1,6 +1,34 @@
 {
-    "listing":[
-        
-    ]
+  "listing": [
+    {
+      "name": "Govind Singh",
+      "city": "Bageshwar",
+      "address": "Village - Kwairali, Post Office - Gurna",
+      "capacity": "500000",
+      "cost_per_day": "5000",
+      "verified": "Yes",
+      "rating": "4.8",
+      "id": 1
+    },
+    {
+      "name": "Saran",
+      "city": "Delhi",
+      "address": "Shayan nagar ",
+      "capacity": "50000",
+      "cost_per_day": "2500",
+      "verified": "Yes",
+      "rating": "4.5",
+      "id": 2
+    },
+    {
+      "name": "Ramesh",
+      "city": "Delhi",
+      "address": "Karan Pur",
+      "capacity": "50000",
+      "cost_per_day": "2000",
+      "verified": "Yes",
+      "rating": "4.6",
+      "id": 3
+    }
+  ]
 }
-   
